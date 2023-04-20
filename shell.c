@@ -12,9 +12,8 @@ int main(void)
 	char *args[MAX_NUM_ARGS + 1];
 
 	/*
-	 * function isatty() is used to check if 
-	 * input is coming from a pipe or the terminal
-	 * Read man isatty()
+	 * function isatty() is used to check if input is
+	 * coming from a pipe or the terminal. Read man isatty()
 	 */
 	if (!isatty(STDIN_FILENO))
 	{
@@ -29,7 +28,6 @@ int main(void)
 		free(command);
 		return (0);
 	}
-
 	while (1)
 	{
 		printf(">> ");

@@ -5,16 +5,19 @@
  * Return: 0.
  */
 
+#if 0
 int main(void)
+#else
+int main(int argc, char **argv)
+#endif
 {
 	char *command = NULL;
 	size_t n = 0;
 	char *args[MAX_NUM_ARGS + 1];
-
-	/*
-	 * function isatty() is used to check if input is
-	 * coming from a pipe or the terminal. Read man isatty()
-	 */
+	(void)argc;
+#if 1
+	shell = *argv;
+#endif
 	if (!isatty(STDIN_FILENO))
 	{
 		if (getline(&command, &n, stdin) == -1)

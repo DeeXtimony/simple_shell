@@ -2,6 +2,7 @@
 
 /**
  * execute_command - forks and executes commands
+ * @args: arguments
  */
 
 void execute_command(char *args[])

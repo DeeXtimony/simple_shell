@@ -2,6 +2,8 @@
 
 /**
  * parse_command - parse command into arguments
+ * @command: commands
+ * @args: arguments
  */
 
 void parse_command(char *command, char *args[])

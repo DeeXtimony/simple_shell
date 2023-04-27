@@ -2,6 +2,8 @@
 
 /**
  * main - main shell program
+ * @argc: number of arguments
+ * @argv: arrays of cli arguments
  * Return: 0.
  */
 

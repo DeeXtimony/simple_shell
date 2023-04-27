@@ -1,12 +1,6 @@
 #include "shell.h"
 
 /**
- * exit - exit without a parameter
- */
-
-void exit();
-
-/**
  * execute_command - forks and executes commands
  * @args: arguments
  */

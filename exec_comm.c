@@ -9,6 +9,7 @@ void execute_command(char *args[])
 {
 	int status;
 	pid_t pid;
+	char *envp[] = {NULL};
 #if 0
 	char cmd[100], shell[100];
 #endif
@@ -29,7 +30,7 @@ void execute_command(char *args[])
 	pid = fork();
 	if (pid == 0)
 	{
-		execvp(args[0], args);
+		execve(args[0], args, envp);
 #if 0
 		printf("%s: %d: %s: not found\n", shell, __LINE__, args[0]);
 #else

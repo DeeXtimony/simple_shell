@@ -1,3 +1,25 @@
+<<<<<<< HEAD
+#include <stdio.h>
+
+/**
+ * print_num - prints number 0 - 10
+ */
+
+void print_num(void)
+{
+	int i;
+	for (i = 0; i < 10; i++)
+		printf("%d.\n", i);
+	printf("%d\n", i); }
+
+/**
+ * main - Runs the program
+ * Return: Always 0.
+ */
+int main(void)
+{
+	print_num();
+=======
 #include "shell.h"
 
 /**
@@ -50,5 +72,6 @@ int main(int argc, char **argv)
 		execute_command(args);
 	}
 	free(command);
+>>>>>>> ad59fc7a2243afa094794dd9e27fad5e500fa4e9
 	return (0);
 }

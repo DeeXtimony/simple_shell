@@ -1,5 +1,15 @@
 #include "shell.h"
 
+
+#if 0
+/** 
+ * main - main shell program
+ * @void: argument type
+ */
+
+int main(void)
+#else
+
 /**
  * main - main shell program
  * @argc: number of arguments
@@ -7,9 +17,6 @@
  * Return: 0.
  */
 
-#if 0
-int main(void)
-#else
 int main(int argc, char **argv)
 #endif
 {

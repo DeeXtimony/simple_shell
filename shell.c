@@ -33,7 +33,7 @@ int main(int argc, char **argv)
 	}
 	while (1)
 	{
-		printf(">> ");
+		printf("</> ");
 		if (getline(&command, &n, stdin) == -1)
 		{
 			perror("Error: getline() failed\n");

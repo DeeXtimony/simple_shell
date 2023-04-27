@@ -1,9 +1,0 @@
-#Simple shell works fine in interactive and non-interactive mode.
-#However, it does not produce desired result when "cat test_ls_2 | ./hsh" is run, as stated in the pre-task testing
-#Betty should be proud of this though.
-#
-#Oluwaseyi. Thursday, 20th April, 2023
-#
-#Append your change history after this line
-#Add name and date ;)
-#

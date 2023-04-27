@@ -16,5 +16,9 @@
 void parse_command(char *command, char *args[]);
 void execute_command(char *args[]);
 
+#if 1
+char *shell;
+int line_number;
+#endif
 
 #endif /* #ifndef SHELL_H */

@@ -1,7 +1,7 @@
 #include "shell.h"
 
 /**
- * pasrse_command - parse command into arguments
+ * parse_command - parse command into arguments
  */
 
 void parse_command(char *command, char *args[])
